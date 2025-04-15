@@ -1,0 +1,85 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: white;
+        }
+
+        .container {
+            background-color: #b18968;
+            padding: 25px;
+            margin: 5px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 25px;
+            text-align: left;
+            border-radius: 30px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;         }
+
+        .robot-img {
+            max-width: 300px;  
+        }
+
+        .robot-img img {
+            width: 100%;  
+            height: auto;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .inputs {
+            margin: 10px 0;
+        }
+
+        label {
+            font-size: 16px;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input {
+            padding: 8px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: row;  
+            width: 100%;  
+            gap: 10px;  
+            margin-top: 20px;  
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            flex: 1;  
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    
